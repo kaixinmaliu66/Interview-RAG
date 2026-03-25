@@ -1,0 +1,18 @@
+[project]
+name = "interview-rag-backend"
+version = "0.1.0"
+description = "FastAPI backend with SQLModel and ChromaDB"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlmodel",
+    "chromadb",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "aiosqlite",
+    "sentence-transformers>=5.3.0",
+    "langchain-openai>=1.1.12",
+]
